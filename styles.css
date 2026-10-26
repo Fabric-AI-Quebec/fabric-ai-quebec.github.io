@@ -130,6 +130,9 @@ section{padding-block:72px;border-top:1px solid var(--line)}
 .person{border-top:4px solid var(--accent-2);background:var(--surface);border-radius:0 0 14px 14px;padding:24px;display:grid;gap:10px;align-content:start}
 .person:nth-child(2){border-top-color:var(--cyan)}
 .person:nth-child(3){border-top-color:var(--lys)}
+.person .avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;border:4px solid var(--surface);box-shadow:0 0 0 3px var(--accent-2),0 8px 20px rgba(11,31,58,.18);margin-bottom:6px}
+.person:nth-child(2) .avatar{box-shadow:0 0 0 3px var(--cyan),0 8px 20px rgba(11,31,58,.18)}
+.person:nth-child(3) .avatar{box-shadow:0 0 0 3px var(--lys),0 8px 20px rgba(11,31,58,.18)}
 .person p{color:var(--muted)}
 .person a{font-weight:600;text-decoration:none}
 .person a:hover{text-decoration:underline}
